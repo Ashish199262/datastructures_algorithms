@@ -1,3 +1,5 @@
+//Accepted
+
 var isCousins = function (root, x, y) {
   var xParent, yParent, queue = [], resArr = [], xRow, yRow;
   xParent = findParent(root, x)
